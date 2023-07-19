@@ -1,0 +1,6 @@
+# ninja log v5
+4	691	7114530180292839	CMakeFiles/pacman-rules.dir/pacman_rules_test.cpp.obj	850913cc1f1c70
+11	2970	7114530203033919	CMakeFiles/pacman-rules.dir/test/tests-main.cpp.obj	927af0211c57e817
+2970	3758	7114530210660488	pacman-rules.exe	2721e97b5b40c3e2
+3758	5738	0	CMakeFiles/test_pacman-rules	7fe86047bb2a7965
+3758	5738	0	C:/Users/hp/Exercism/cpp/pacman-rules/out/build/x64-Debug/CMakeFiles/test_pacman-rules	7fe86047bb2a7965
