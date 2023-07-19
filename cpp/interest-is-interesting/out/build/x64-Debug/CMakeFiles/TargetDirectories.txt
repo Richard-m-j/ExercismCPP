@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/interest-is-interesting/out/build/x64-Debug/CMakeFiles/interest-is-interesting.dir
+C:/Users/hp/Exercism/cpp/interest-is-interesting/out/build/x64-Debug/CMakeFiles/test_interest-is-interesting.dir
+C:/Users/hp/Exercism/cpp/interest-is-interesting/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/interest-is-interesting/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

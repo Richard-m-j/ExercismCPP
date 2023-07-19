@@ -1,0 +1,6 @@
+# ninja log v5
+2	1043	7114606236131994	CMakeFiles/interest-is-interesting.dir/interest_is_interesting_test.cpp.obj	a5bcc9ad4bab9a21
+6	3092	7114606256579971	CMakeFiles/interest-is-interesting.dir/test/tests-main.cpp.obj	ed33fe0e272967f1
+3093	3751	7114606262950440	interest-is-interesting.exe	de070593c6000b06
+3751	4342	0	CMakeFiles/test_interest-is-interesting	79b54c441f54a48e
+3751	4342	0	C:/Users/hp/Exercism/cpp/interest-is-interesting/out/build/x64-Debug/CMakeFiles/test_interest-is-interesting	79b54c441f54a48e
