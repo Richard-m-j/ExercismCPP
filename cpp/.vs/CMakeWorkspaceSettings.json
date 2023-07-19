@@ -1,4 +1,4 @@
 {
   "enableCMake": true,
-  "sourceDirectory": "pacman-rules"
+  "sourceDirectory": "vehicle-purchase"
 }

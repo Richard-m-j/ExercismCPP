@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/vehicle-purchase/out/build/x64-Debug/CMakeFiles/vehicle-purchase.dir
+C:/Users/hp/Exercism/cpp/vehicle-purchase/out/build/x64-Debug/CMakeFiles/test_vehicle-purchase.dir
+C:/Users/hp/Exercism/cpp/vehicle-purchase/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/vehicle-purchase/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

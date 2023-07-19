@@ -1,0 +1,7 @@
+# ninja log v5
+8	687	7114546318960885	CMakeFiles/vehicle-purchase.dir/vehicle_purchase.cpp.obj	7400c1a1af81bae0
+3	1122	7114546323405095	CMakeFiles/vehicle-purchase.dir/vehicle_purchase_test.cpp.obj	37c4123b76a56e72
+15	3375	7114546345723833	CMakeFiles/vehicle-purchase.dir/test/tests-main.cpp.obj	4edf35c91dfe1c45
+3375	4068	7114546352578943	vehicle-purchase.exe	286b034efe7ed556
+4068	10591	0	CMakeFiles/test_vehicle-purchase	c906cc15fa8504a5
+4068	10591	0	C:/Users/hp/Exercism/cpp/vehicle-purchase/out/build/x64-Debug/CMakeFiles/test_vehicle-purchase	c906cc15fa8504a5
