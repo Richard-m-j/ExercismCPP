@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/freelancer-rates/out/build/x64-Debug/CMakeFiles/freelancer-rates.dir
+C:/Users/hp/Exercism/cpp/freelancer-rates/out/build/x64-Debug/CMakeFiles/test_freelancer-rates.dir
+C:/Users/hp/Exercism/cpp/freelancer-rates/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/freelancer-rates/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

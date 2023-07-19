@@ -1,0 +1,6 @@
+# ninja log v5
+2	623	7114523610410337	CMakeFiles/freelancer-rates.dir/freelancer_rates_test.cpp.obj	c8a0927b4f9c6d8a
+6	3131	7114523635402886	CMakeFiles/freelancer-rates.dir/test/tests-main.cpp.obj	f67ed366933dbffa
+3131	3862	7114523642585844	freelancer-rates.exe	ae1b5c84331bdf73
+3862	4470	0	CMakeFiles/test_freelancer-rates	7d29f46fa7f4a8b8
+3862	4470	0	C:/Users/hp/Exercism/cpp/freelancer-rates/out/build/x64-Debug/CMakeFiles/test_freelancer-rates	7d29f46fa7f4a8b8
