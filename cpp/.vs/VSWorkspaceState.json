@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\freelancer-rates",
-    "\\log-levels"
+    "\\interest-is-interesting",
+    "\\log-levels",
+    "\\pacman-rules",
+    "\\raindrops",
+    "\\vehicle-purchase"
   ],
-  "SelectedNode": "\\freelancer-rates\\test",
+  "SelectedNode": "\\pacman-rules\\pacman_rules_test.cpp",
   "PreviewInSolutionExplorer": false
 }

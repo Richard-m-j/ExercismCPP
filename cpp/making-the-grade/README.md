@@ -132,7 +132,7 @@ above_threshold({90,40,55,70,30,68,70,75,83,96}, 75);
 The teacher you're assisting likes to assign letter grades as well as numeric scores.
 Since students rarely score 100 on an exam, the "letter grade" lower thresholds are calculated based on the highest score achieved, and increment evenly between the high score and the failing threshold of **<= 40**.
 
-Create the function `letter_grades()` that takes the "highest" score on the exam as a parameter, and returns an `array` (not a vector) of lower score thresholds for each "American style" grade interval: `["D", "C", "B", "A"]`.
+Create the function `l` that takes the "highest" score on the exam as a parameter, and returns an `array` (not a vector) of lower score thresholds for each "American style" grade interval: `["D", "C", "B", "A"]`.
 
 ```cpp
 /*Where the highest score is 100, and failing is <= 40.

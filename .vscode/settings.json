@@ -1,3 +1,6 @@
 {
-  "cmake.sourceDirectory": "C:/Users/hp/Exercism/cpp/log-levels"
+  "cmake.sourceDirectory": "C:/Users/hp/Exercism/cpp/log-levels",
+  "files.associations": {
+    "vector": "cpp"
+  }
 }
