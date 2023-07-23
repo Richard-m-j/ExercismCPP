@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/making-the-grade/out/build/x64-Debug/CMakeFiles/making-the-grade.dir
+C:/Users/hp/Exercism/cpp/making-the-grade/out/build/x64-Debug/CMakeFiles/test_making-the-grade.dir
+C:/Users/hp/Exercism/cpp/making-the-grade/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/making-the-grade/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+# ninja log v5
+4	1686	7117908741251159	CMakeFiles/making-the-grade.dir/making_the_grade_test.cpp.obj	591c17b229273e43
+10	5034	7117908775015851	CMakeFiles/making-the-grade.dir/test/tests-main.cpp.obj	5733c362d1df0afc
+5034	6032	7117908784674960	making-the-grade.exe	bc9ede92d388f0a6
+6032	8095	0	CMakeFiles/test_making-the-grade	e305e9a1690aa77e
+6032	8095	0	C:/Users/hp/Exercism/cpp/making-the-grade/out/build/x64-Debug/CMakeFiles/test_making-the-grade	e305e9a1690aa77e

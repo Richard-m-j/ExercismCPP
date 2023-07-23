@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\freelancer-rates",
-    "\\interest-is-interesting",
-    "\\log-levels",
+    "\\atbash-cipher",
+    "\\atbash-cipher\\test",
+    "\\making-the-grade",
     "\\pacman-rules",
     "\\raindrops",
     "\\vehicle-purchase"
   ],
-  "SelectedNode": "\\pacman-rules\\pacman_rules_test.cpp",
+  "SelectedNode": "\\making-the-grade\\making_the_grade_test.cpp",
   "PreviewInSolutionExplorer": false
 }
