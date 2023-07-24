@@ -1,3 +1,20 @@
 # ninja log v5
-7	769	7117897481583111	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+19	875	7117921440030553	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
 11	3649	7117897510609716	CMakeFiles/atbash-cipher.dir/test/tests-main.cpp.obj	b23842e7914ec41d
+14	1121	7117926101970444	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+59	4227	7117926133129150	CMakeFiles/atbash-cipher.dir/test/tests-main.cpp.obj	b23842e7914ec41d
+47	779	7117928287896001	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+10	802	7117944999123958	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+44	782	7118713805110023	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+37	1013	7118713807457303	CMakeFiles/atbash-cipher.dir/atbash_cipher_test.cpp.obj	f20c51b983e0de68
+10	444	7118715195898500	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+17	516	7118718908762832	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+12	659	7118718910177117	CMakeFiles/atbash-cipher.dir/atbash_cipher_test.cpp.obj	f20c51b983e0de68
+6	318	7118719766296987	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+7	331	7118721629309669	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+19	298	7118722305788541	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+161	686	7118728597363512	CMakeFiles/atbash-cipher.dir/atbash_cipher.cpp.obj	6cd5969bc4683601
+157	941	7118728600032457	CMakeFiles/atbash-cipher.dir/atbash_cipher_test.cpp.obj	f20c51b983e0de68
+941	2003	7118728610391058	atbash-cipher.exe	d78902381afe0a4e
+2003	4771	0	CMakeFiles/test_atbash-cipher	29b7fdcd0199e20a
+2003	4771	0	C:/Users/hp/Exercism/cpp/atbash-cipher/out/build/x64-Debug/CMakeFiles/test_atbash-cipher	29b7fdcd0199e20a
