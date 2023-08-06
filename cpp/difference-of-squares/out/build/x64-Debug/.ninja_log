@@ -1,0 +1,25 @@
+# ninja log v5
+6	88	7118823913479176	CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.obj	8903a57fc2d0986a
+2	600	7118823918499574	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+10	2852	7118823940941689	CMakeFiles/difference-of-squares.dir/test/tests-main.cpp.obj	ea2f1d3519c71172
+2853	3392	7118823946275402	difference-of-squares.exe	8c88e52ea0c75e73
+3392	3702	0	CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+3392	3702	0	C:/Users/hp/Exercism/cpp/difference-of-squares/out/build/x64-Debug/CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+12	498	7118824947683746	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+499	802	7118824950192696	difference-of-squares.exe	8c88e52ea0c75e73
+802	873	0	CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+802	873	0	C:/Users/hp/Exercism/cpp/difference-of-squares/out/build/x64-Debug/CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+14	721	7118825698444455	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+721	958	7118825700483913	difference-of-squares.exe	8c88e52ea0c75e73
+3	569	7118827262413423	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+569	1010	7118827266176980	difference-of-squares.exe	8c88e52ea0c75e73
+1010	1279	0	CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+1010	1279	0	C:/Users/hp/Exercism/cpp/difference-of-squares/out/build/x64-Debug/CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+16	920	7118827491611773	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+921	1218	7118827494407355	difference-of-squares.exe	8c88e52ea0c75e73
+13	925	7118827846645032	CMakeFiles/difference-of-squares.dir/difference_of_squares_test.cpp.obj	6133d0942c9bfa77
+926	1363	7118827850567718	difference-of-squares.exe	8c88e52ea0c75e73
+13	223	7118830641763338	CMakeFiles/difference-of-squares.dir/difference_of_squares.cpp.obj	8903a57fc2d0986a
+224	397	7118830643042605	difference-of-squares.exe	8c88e52ea0c75e73
+397	447	0	CMakeFiles/test_difference-of-squares	5181a49b2c354bf4
+397	447	0	C:/Users/hp/Exercism/cpp/difference-of-squares/out/build/x64-Debug/CMakeFiles/test_difference-of-squares	5181a49b2c354bf4

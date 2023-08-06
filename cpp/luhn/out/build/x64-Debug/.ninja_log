@@ -1,0 +1,7 @@
+# ninja log v5
+14	562	7129981932315851	CMakeFiles/luhn.dir/luhn.cpp.obj	d3c67d614fd17136
+701	792	0	CMakeFiles/test_luhn	2b5c3d1ba04e6e6d
+14	649	7118862045456264	CMakeFiles/luhn.dir/luhn_test.cpp.obj	810f6db314713826
+11	3021	7118861077762982	CMakeFiles/luhn.dir/test/tests-main.cpp.obj	3d73e8362eeaa3ef
+791	1599	7129980768674997	luhn.exe	b4676df28840d42e
+701	792	0	C:/Users/hp/Exercism/cpp/luhn/out/build/x64-Debug/CMakeFiles/test_luhn	2b5c3d1ba04e6e6d

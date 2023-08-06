@@ -1,0 +1,15 @@
+# ninja log v5
+7	352	7129992645538664	CMakeFiles/hexadecimal.dir/hexadecimal.cpp.obj	c284ecee6755e948
+3	646	7129992648494819	CMakeFiles/hexadecimal.dir/hexadecimal_test.cpp.obj	9c3c89e5198be48
+13	3005	7129992671999963	CMakeFiles/hexadecimal.dir/test/tests-main.cpp.obj	1e5944d8ec2a1728
+3005	3574	7129992677538276	hexadecimal.exe	80a558dc7483e004
+50	500	7129993426405161	CMakeFiles/hexadecimal.dir/hexadecimal.cpp.obj	c284ecee6755e948
+500	716	7129993428180360	hexadecimal.exe	80a558dc7483e004
+716	832	0	CMakeFiles/test_hexadecimal	e1dd35d08808135a
+716	832	0	C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/test_hexadecimal	e1dd35d08808135a
+53	898	7129993714175764	CMakeFiles/hexadecimal.dir/hexadecimal_test.cpp.obj	9c3c89e5198be48
+900	1143	7129993716116109	hexadecimal.exe	80a558dc7483e004
+57	460	7129994420775153	CMakeFiles/hexadecimal.dir/hexadecimal.cpp.obj	c284ecee6755e948
+461	675	7129994422502286	hexadecimal.exe	80a558dc7483e004
+675	830	0	CMakeFiles/test_hexadecimal	e1dd35d08808135a
+675	830	0	C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/test_hexadecimal	e1dd35d08808135a

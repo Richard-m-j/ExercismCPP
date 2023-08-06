@@ -1,38 +1,52 @@
 #include <iostream>
-
-namespace vehicle_purchase
+#include <string>
+namespace luhn
 {
-
-    // needs_license determines whether a license is needed to drive a type of vehicle. Only "car" and "truck" require a license.
-    bool needs_license(std::string kind)
+    bool valid(std::string inputNumber)
     {
-        // TODO: Return true if you need a license for that kind of vehicle.
-        return kind == "car" || kind == "truck";
+        std::string output = "";
+        std::string input = "";
+        int sum = 0;
+        int j = 0;
+        int l = static_cast<int>(inputNumber.length());
+        for (int i = 0; i < l; i++)
+        {
+            if (inputNumber[i] != ' ')
+            {
+                input += inputNumber[i];
+                if (!isdigit(inputNumber[i]))
+                    return false;
+            }
+        }
+        int n=static_cast<int>(input.length());
+        std::cout << input << std::endl;
+        for (int i = n - 1; i >= 0; i--)
+        {
+
+            if ((n - i) % 2 == 0)
+            {
+                int temp = (input[i] - '0') * 2;
+                if (temp > 9)
+                    output += std::to_string(temp - 9);
+                else
+                    output += std::to_string(temp);
+            }
+            else
+                output += input[i];
+
+            sum += output[j] - '0';
+            j++;
+            std::cout << output << std::endl;
+        }
+
+        std::cout << sum << std::endl;
+        if (sum % 10 == 0 && n > 1)
+            return true;
+        return false;
     }
+} // namespace luhn
 
-    // choose_vehicle recommends a vehicle for selection. It always recommends the vehicle that comes first in lexicographical order.
-    std::string choose_vehicle(std::string option1, std::string option2)
-    {
-        // TODO: Return the final decision in a sentence.
-        return ((option1 < option2 ? option1 : option2) + "is clearly the better choice");
-    }
-
-    // calculate_resell_price calculates how much a vehicle can resell for at a certain age.
-    double calculate_resell_price(double original_price, double age)
-    {
-        // TODO: Return the age-corrected resell price.
-        if (age < 3)
-            return original_price * 0.8;
-        else if (age < 10)
-            return original_price * 0.7;
-        else
-            return original_price * 0.5;
-    }
-
-} // namespace vehicle_purchase
-
-int main(void){
-    std::string choice1{"Bugatti Veyron"};
-    std::string choice2{"Ford Pinto"};
-    std::cout << vehicle_purchase::choose_vehicle(choice1, choice2);
+int main(void)
+{
+    std::cout << luhn::valid("234 567 891 234") << std::endl;
 }

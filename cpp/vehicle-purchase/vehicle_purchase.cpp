@@ -14,7 +14,7 @@ namespace vehicle_purchase
     std::string choose_vehicle(std::string option1, std::string option2)
     {
         // TODO: Return the final decision in a sentence.
-        return option1 < option2 ? option1 : option2 + "is clearly the better choice";
+        return ((option1 < option2 ? option1 : option2) + "is clearly the better choice");
     }
 
     // calculate_resell_price calculates how much a vehicle can resell for at a certain age.

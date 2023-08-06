@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "trinary\\out\\build\\x64-Debug",
+      "trinary\\out\\install\\x64-Debug"
+    ]
+  }
+}

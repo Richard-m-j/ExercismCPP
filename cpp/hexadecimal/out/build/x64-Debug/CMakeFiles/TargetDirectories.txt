@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/hexadecimal.dir
+C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/test_hexadecimal.dir
+C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/hexadecimal/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

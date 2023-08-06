@@ -1,0 +1,21 @@
+# ninja log v5
+7	389	7118838386830321	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+3	752	7118838390581474	CMakeFiles/trinary.dir/trinary_test.cpp.obj	64bcd9a6acfcca9c
+12	3208	7118838414991228	CMakeFiles/trinary.dir/test/tests-main.cpp.obj	aaeef41be5b311ec
+3208	3738	7118838420089666	trinary.exe	57b8e7e5c8ba7402
+360	768	7118839048290479	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+768	958	7118839049679719	trinary.exe	57b8e7e5c8ba7402
+2	402	7118840986112412	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+403	597	7118840987683036	trinary.exe	57b8e7e5c8ba7402
+13	493	7118841863032448	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+494	713	7118841864823754	trinary.exe	57b8e7e5c8ba7402
+11	425	7118843487246316	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+426	627	7118843488817046	trinary.exe	57b8e7e5c8ba7402
+627	726	0	CMakeFiles/test_trinary	47e9cb20b10a2a08
+627	726	0	C:/Users/hp/Exercism/cpp/trinary/out/build/x64-Debug/CMakeFiles/test_trinary	47e9cb20b10a2a08
+50	549	7118843767025036	CMakeFiles/trinary.dir/trinary_test.cpp.obj	64bcd9a6acfcca9c
+550	711	7118843768280029	trinary.exe	57b8e7e5c8ba7402
+12	415	7118844710898142	CMakeFiles/trinary.dir/trinary.cpp.obj	5633ee097f40e8a0
+416	615	7118844712625068	trinary.exe	57b8e7e5c8ba7402
+616	676	0	CMakeFiles/test_trinary	47e9cb20b10a2a08
+616	676	0	C:/Users/hp/Exercism/cpp/trinary/out/build/x64-Debug/CMakeFiles/test_trinary	47e9cb20b10a2a08

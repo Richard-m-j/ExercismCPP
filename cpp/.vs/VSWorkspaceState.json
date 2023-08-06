@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\atbash-cipher",
     "\\atbash-cipher\\test",
-    "\\making-the-grade",
-    "\\pacman-rules",
-    "\\raindrops",
-    "\\vehicle-purchase"
+    "\\luhn"
   ],
-  "SelectedNode": "\\atbash-cipher\\atbash_cipher.cpp",
+  "SelectedNode": "\\luhn\\luhn_test.cpp",
   "PreviewInSolutionExplorer": false
 }

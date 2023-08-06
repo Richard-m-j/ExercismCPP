@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/hp/Exercism/cpp/difference-of-squares",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=c++1z -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\log-levels.dir\\log_levels_test.cpp.obj -c C:\\Users\\hp\\Exercism\\cpp\\log-levels\\log_levels_test.cpp",
+  "file": "C:/Users/hp/Exercism/cpp/log-levels/log_levels_test.cpp",
+  "output": "CMakeFiles/log-levels.dir/log_levels_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/hp/Exercism/cpp/difference-of-squares",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=c++1z -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\log-levels.dir\\test\\tests-main.cpp.obj -c C:\\Users\\hp\\Exercism\\cpp\\log-levels\\test\\tests-main.cpp",
+  "file": "C:/Users/hp/Exercism/cpp/log-levels/test/tests-main.cpp",
+  "output": "CMakeFiles/log-levels.dir/test/tests-main.cpp.obj"
+}
+]

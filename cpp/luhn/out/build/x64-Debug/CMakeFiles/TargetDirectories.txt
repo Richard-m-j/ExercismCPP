@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/luhn/out/build/x64-Debug/CMakeFiles/luhn.dir
+C:/Users/hp/Exercism/cpp/luhn/out/build/x64-Debug/CMakeFiles/test_luhn.dir
+C:/Users/hp/Exercism/cpp/luhn/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/luhn/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

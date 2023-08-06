@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "difference-of-squares\\out\\build\\x64-Debug",
+      "difference-of-squares\\out\\install\\x64-Debug"
+    ]
+  }
+}
