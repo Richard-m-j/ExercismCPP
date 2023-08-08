@@ -1,0 +1,5 @@
+# ninja log v5
+55	283	7130005481929425	CMakeFiles/darts.dir/darts.cpp.obj	ca1e3e8d305c5819
+2934	3475	7130004607346738	darts.exe	bd7905b28ad541c6
+3	641	7130004579238949	CMakeFiles/darts.dir/darts_test.cpp.obj	d13f2e238a8d63c1
+12	2934	7130004602093764	CMakeFiles/darts.dir/test/tests-main.cpp.obj	15e47deb656defb9

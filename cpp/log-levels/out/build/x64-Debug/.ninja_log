@@ -1,10 +1,6 @@
 # ninja log v5
 12	3060	7114505143267796	CMakeFiles/log-levels.dir/test/tests-main.cpp.obj	66919900c4e81798
 55	873	7114506347462958	CMakeFiles/log-levels.dir/log_levels_test.cpp.obj	12c1588111457cdc
-874	1607	7114506354557073	log-levels.exe	ce712339fa8dd626
-1607	4160	0	CMakeFiles/test_log-levels	670616ba6af46fad
-1607	4160	0	C:/Users/hp/Exercism/cpp/log-levels/out/build/x64-Debug/CMakeFiles/test_log-levels	670616ba6af46fad
-164	301	0	CMakeFiles/test_log-levels	670616ba6af46fad
-164	301	0	C:/Users/hp/Exercism/cpp/log-levels/out/build/x64-Debug/CMakeFiles/test_log-levels	670616ba6af46fad
-8	33	0	CMakeFiles/test_log-levels	670616ba6af46fad
 8	33	0	C:/Users/hp/Exercism/cpp/log-levels/out/build/x64-Debug/CMakeFiles/test_log-levels	670616ba6af46fad
+874	1607	7114506354557073	log-levels.exe	ce712339fa8dd626
+8	33	0	CMakeFiles/test_log-levels	670616ba6af46fad

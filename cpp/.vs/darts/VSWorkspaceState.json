@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "darts\\out\\build\\x64-Debug",
+      "darts\\out\\install\\x64-Debug"
+    ]
+  }
+}

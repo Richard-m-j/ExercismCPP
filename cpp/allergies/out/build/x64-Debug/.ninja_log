@@ -1,0 +1,9 @@
+# ninja log v5
+11	2930	7130071308109127	CMakeFiles/allergies.dir/test/tests-main.cpp.obj	559c4eee739f4119
+3	654	7130072157033779	CMakeFiles/allergies.dir/allergies_test.cpp.obj	e3465fe21b5853dd
+4	770	7130085542947116	CMakeFiles/allergies.dir/allergies_test.cpp.obj	e3465fe21b5853dd
+15	575	7130089907857913	CMakeFiles/allergies.dir/allergies.cpp.obj	4684701ca4169992
+11	749	7130089909630917	CMakeFiles/allergies.dir/allergies_test.cpp.obj	e3465fe21b5853dd
+749	1419	7130089915972496	allergies.exe	638047f8cfb7cb6f
+17	579	7130091745018089	CMakeFiles/allergies.dir/allergies.cpp.obj	4684701ca4169992
+580	789	7130091746774470	allergies.exe	638047f8cfb7cb6f

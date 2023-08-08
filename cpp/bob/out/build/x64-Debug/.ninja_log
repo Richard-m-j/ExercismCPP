@@ -1,0 +1,6 @@
+# ninja log v5
+3	695	7130016997024166	CMakeFiles/bob.dir/bob_test.cpp.obj	e91b284737cdd8de
+11	2957	7130017019568749	CMakeFiles/bob.dir/test/tests-main.cpp.obj	d437630f0d6e66b
+15	490	7130018509092051	CMakeFiles/bob.dir/bob.cpp.obj	59c5a0664f3f0c87
+11	675	7130018510972558	CMakeFiles/bob.dir/bob_test.cpp.obj	e91b284737cdd8de
+675	1289	7130018516840644	bob.exe	a80be1b1ddb988be

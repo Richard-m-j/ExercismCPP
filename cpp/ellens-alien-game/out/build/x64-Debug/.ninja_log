@@ -1,0 +1,6 @@
+# ninja log v5
+9	598	7130042546154829	CMakeFiles/ellens-alien-game.dir/ellens_alien_game_test.cpp.obj	2bc9003ca70035c7
+13	2835	7130042568465926	CMakeFiles/ellens-alien-game.dir/test/tests-main.cpp.obj	53fa791c6819c5b1
+2836	3353	7130042573437478	ellens-alien-game.exe	8366e30ee6f48c75
+3353	3448	0	CMakeFiles/test_ellens-alien-game	647277ce91804f78
+3353	3448	0	C:/Users/hp/Exercism/cpp/ellens-alien-game/out/build/x64-Debug/CMakeFiles/test_ellens-alien-game	647277ce91804f78

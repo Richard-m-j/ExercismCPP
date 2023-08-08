@@ -1,0 +1,12 @@
+# ninja log v5
+6	204	7130029413664844	CMakeFiles/armstrong-numbers.dir/armstrong_numbers.cpp.obj	f0dd3905b1b3bc1d
+11	3077	7130029442370257	CMakeFiles/armstrong-numbers.dir/test/tests-main.cpp.obj	5db89ae436f6802b
+16	325	7130030459494796	CMakeFiles/armstrong-numbers.dir/armstrong_numbers.cpp.obj	f0dd3905b1b3bc1d
+12	644	7130030462750682	CMakeFiles/armstrong-numbers.dir/armstrong_numbers_test.cpp.obj	2485b63f42cba76d
+644	1432	7130030470384613	armstrong-numbers.exe	18e1749f73279c8c
+1432	1717	0	CMakeFiles/test_armstrong-numbers	9962f324f90b5ccc
+1432	1717	0	C:/Users/hp/Exercism/cpp/armstrong-numbers/out/build/x64-Debug/CMakeFiles/test_armstrong-numbers	9962f324f90b5ccc
+76	592	7130030699704201	CMakeFiles/armstrong-numbers.dir/armstrong_numbers_test.cpp.obj	2485b63f42cba76d
+592	759	7130030701023061	armstrong-numbers.exe	18e1749f73279c8c
+759	886	0	CMakeFiles/test_armstrong-numbers	9962f324f90b5ccc
+759	886	0	C:/Users/hp/Exercism/cpp/armstrong-numbers/out/build/x64-Debug/CMakeFiles/test_armstrong-numbers	9962f324f90b5ccc

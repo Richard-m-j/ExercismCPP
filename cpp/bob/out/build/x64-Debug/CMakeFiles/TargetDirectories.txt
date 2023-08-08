@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/bob/out/build/x64-Debug/CMakeFiles/bob.dir
+C:/Users/hp/Exercism/cpp/bob/out/build/x64-Debug/CMakeFiles/test_bob.dir
+C:/Users/hp/Exercism/cpp/bob/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/bob/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

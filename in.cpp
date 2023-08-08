@@ -1,52 +1,75 @@
-#include <iostream>
 #include <string>
-namespace luhn
+#include <unordered_set>
+using namespace std;
+
+namespace allergies
 {
-    bool valid(std::string inputNumber)
+    class allergy_test
     {
-        std::string output = "";
-        std::string input = "";
-        int sum = 0;
-        int j = 0;
-        int l = static_cast<int>(inputNumber.length());
-        for (int i = 0; i < l; i++)
+        public: 
+        bool is_allergic_to(std::string allergen)
         {
-            if (inputNumber[i] != ' ')
-            {
-                input += inputNumber[i];
-                if (!isdigit(inputNumber[i]))
-                    return false;
-            }
-        }
-        int n=static_cast<int>(input.length());
-        std::cout << input << std::endl;
-        for (int i = n - 1; i >= 0; i--)
-        {
+            std::string binaryScore = "";
+            for (int score = allergy_score; score > 0; score /= 2)
+                binaryScore += std::to_string(score % 2);
 
-            if ((n - i) % 2 == 0)
-            {
-                int temp = (input[i] - '0') * 2;
-                if (temp > 9)
-                    output += std::to_string(temp - 9);
-                else
-                    output += std::to_string(temp);
-            }
-            else
-                output += input[i];
+            int l = static_cast<int>(binaryScore.length() - 1);
+            if (allergen == "eggs")
+                return binaryScore[l] == '1';
+            if (allergen == "peanuts")
+                return binaryScore[l - 1] == '1';
+            if (allergen == "shellfish")
+                return binaryScore[l - 2] == '1';
+            if (allergen == "strawberries")
+                return binaryScore[l - 3] == '1';
+            if (allergen == "tomatoes")
+                return binaryScore[l - 4] == '1';
+            if (allergen == "chocolate")
+                return binaryScore[l - 5] == '1';
+            if (allergen == "pollen")
+                return binaryScore[l - 6] == '1';
+            if (allergen == "cats")
+                return binaryScore[l - 7] == '1';
 
-            sum += output[j] - '0';
-            j++;
-            std::cout << output << std::endl;
+            // Return false for unknown allergens
+            return false;
         }
 
-        std::cout << sum << std::endl;
-        if (sum % 10 == 0 && n > 1)
-            return true;
-        return false;
-    }
-} // namespace luhn
+        std::unordered_set<std::string> get_allergies()
+        {
+            std::unordered_set<std::string> allergies;
+            if (is_allergic_to("eggs"))
+                allergies.insert("eggs");
+            if (is_allergic_to("peanuts"))
+                allergies.insert("peanuts");
+            if (is_allergic_to("shellfish"))
+                allergies.insert("shellfish");
+            if (is_allergic_to("strawberries"))
+                allergies.insert("strawberries");
+            if (is_allergic_to("tomatoes"))
+                allergies.insert("tomatoes");
+            if (is_allergic_to("chocolate"))
+                allergies.insert("chocolate");
+            if (is_allergic_to("pollen"))
+                allergies.insert("pollen");
+            if (is_allergic_to("cats"))
+                allergies.insert("cats");
+            return allergies;
+        }
 
-int main(void)
+        allergy_test(int score)
+        {
+            allergy_score = score;
+        }
+
+        int allergy_score;
+    };
+} // namespace allergies
+
+int main()
 {
-    std::cout << luhn::valid("234 567 891 234") << std::endl;
+    allergies::allergy_test test(0);
+    test.get_allergies();
+
+    return 0;
 }

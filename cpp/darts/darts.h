@@ -1,8 +1,9 @@
 #if !defined(DARTS_H)
 #define DARTS_H
 
-namespace darts {
-
+namespace darts
+{
+    int score(int x, int y);
 } // namespace darts
 
-#endif //DARTS_H
+#endif // DARTS_H
