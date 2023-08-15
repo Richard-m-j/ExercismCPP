@@ -15,7 +15,7 @@ TEST_CASE("Troll posts are visible to trolls", "[task_2]") {
     REQUIRE(display_post(poster, viewer));
 }
 
-#if defined(EXERCISM_RUN_ALL_TESTS)
+
 
 TEST_CASE("Non-troll posts are visible to guests", "[task_2]") {
     AccountStatus viewer{AccountStatus::guest};
@@ -344,4 +344,3 @@ TEST_CASE("Moderators have highest priority", "[task_5]") {
     REQUIRE_FALSE(has_priority(player1, player2));
 }
 
-#endif

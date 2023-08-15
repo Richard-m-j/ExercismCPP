@@ -1,0 +1,16 @@
+# ninja log v5
+6	3232	7137702178446178	CMakeFiles/troll-the-trolls.dir/test/tests-main.cpp.obj	5fe36fae54a471f0
+55	827	7137703993072979	CMakeFiles/troll-the-trolls.dir/troll_the_trolls_test.cpp.obj	25fd3cab6a594311
+828	1624	7137704000848352	troll-the-trolls.exe	d2255823ae251377
+1624	3526	0	CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
+1624	3526	0	C:/Users/hp/Exercism/cpp/troll-the-trolls/out/build/x64-Debug/CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
+42	1436	7137704402147465	CMakeFiles/troll-the-trolls.dir/troll_the_trolls_test.cpp.obj	25fd3cab6a594311
+1437	2098	7137704407908699	troll-the-trolls.exe	d2255823ae251377
+83	822	7137706284227735	CMakeFiles/troll-the-trolls.dir/troll_the_trolls_test.cpp.obj	25fd3cab6a594311
+822	1235	7137706287366730	troll-the-trolls.exe	d2255823ae251377
+13	836	7137707680872656	CMakeFiles/troll-the-trolls.dir/troll_the_trolls_test.cpp.obj	25fd3cab6a594311
+837	1485	7137707686443893	troll-the-trolls.exe	d2255823ae251377
+1485	1627	0	CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
+1485	1627	0	C:/Users/hp/Exercism/cpp/troll-the-trolls/out/build/x64-Debug/CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
+15	57	0	CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
+15	57	0	C:/Users/hp/Exercism/cpp/troll-the-trolls/out/build/x64-Debug/CMakeFiles/test_troll-the-trolls	f1d392c3013b65a7
