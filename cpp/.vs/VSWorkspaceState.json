@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\atbash-cipher\\test",
-    "\\luhn"
+    "\\luhn",
+    "\\troll-the-trolls"
   ],
-  "SelectedNode": "\\luhn\\luhn_test.cpp",
+  "SelectedNode": "\\troll-the-trolls\\troll_the_trolls_test.cpp",
   "PreviewInSolutionExplorer": false
 }

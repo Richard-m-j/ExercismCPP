@@ -1,0 +1,4 @@
+C:/Users/hp/Exercism/cpp/sieve/CMakeFiles/log-levels.dir
+C:/Users/hp/Exercism/cpp/sieve/CMakeFiles/test_log-levels.dir
+C:/Users/hp/Exercism/cpp/sieve/CMakeFiles/edit_cache.dir
+C:/Users/hp/Exercism/cpp/sieve/CMakeFiles/rebuild_cache.dir

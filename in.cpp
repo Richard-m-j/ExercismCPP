@@ -1,75 +1,53 @@
 #include <string>
-#include <unordered_set>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
-namespace allergies
+string gcdOfStrings(string str1, string str2)
 {
-    class allergy_test
+    string output = "";
+    string s1, s2;
+
+    if (str1.length() >= str2.length())
+        s1 = str1, s2 = str2;
+    else
+        s1 = str2, s2 = str1;
+
+    int l1 = str1.length();
+    int l2 = str2.length();
+
+    while (l2 != 0)
     {
-        public: 
-        bool is_allergic_to(std::string allergen)
+        int temp = l2;
+        l2 = l1 % l2;
+        l1 = temp;
+    }
+    int gcd = l1;
+
+    for (int i = 1; i < gcd; i++)
+    {
+        int x = 0, y = 0;
+        if (gcd % i != 0)
+            continue;
+        bool isRepeating = true;
+        while (x < s1.length() && y < s2.length())
+            for (int k = 0; k <= i; k++)
+                if (s1[x++] != s2[k] || s2[y++] || s2[k])
+                {
+                    isRepeating = false;
+                    break;
+                }
+        if (isRepeating)
         {
-            std::string binaryScore = "";
-            for (int score = allergy_score; score > 0; score /= 2)
-                binaryScore += std::to_string(score % 2);
-
-            int l = static_cast<int>(binaryScore.length() - 1);
-            if (allergen == "eggs")
-                return binaryScore[l] == '1';
-            if (allergen == "peanuts")
-                return binaryScore[l - 1] == '1';
-            if (allergen == "shellfish")
-                return binaryScore[l - 2] == '1';
-            if (allergen == "strawberries")
-                return binaryScore[l - 3] == '1';
-            if (allergen == "tomatoes")
-                return binaryScore[l - 4] == '1';
-            if (allergen == "chocolate")
-                return binaryScore[l - 5] == '1';
-            if (allergen == "pollen")
-                return binaryScore[l - 6] == '1';
-            if (allergen == "cats")
-                return binaryScore[l - 7] == '1';
-
-            // Return false for unknown allergens
-            return false;
+            for (int j = 0; j <= i; j++)
+                output += s2[j];
+            break;
         }
+    }
+    return output;
+}
 
-        std::unordered_set<std::string> get_allergies()
-        {
-            std::unordered_set<std::string> allergies;
-            if (is_allergic_to("eggs"))
-                allergies.insert("eggs");
-            if (is_allergic_to("peanuts"))
-                allergies.insert("peanuts");
-            if (is_allergic_to("shellfish"))
-                allergies.insert("shellfish");
-            if (is_allergic_to("strawberries"))
-                allergies.insert("strawberries");
-            if (is_allergic_to("tomatoes"))
-                allergies.insert("tomatoes");
-            if (is_allergic_to("chocolate"))
-                allergies.insert("chocolate");
-            if (is_allergic_to("pollen"))
-                allergies.insert("pollen");
-            if (is_allergic_to("cats"))
-                allergies.insert("cats");
-            return allergies;
-        }
-
-        allergy_test(int score)
-        {
-            allergy_score = score;
-        }
-
-        int allergy_score;
-    };
-} // namespace allergies
-
-int main()
+int main(void)
 {
-    allergies::allergy_test test(0);
-    test.get_allergies();
-
-    return 0;
+    cout << gcdOfStrings("ABCABC", "ABC") << endl;
 }

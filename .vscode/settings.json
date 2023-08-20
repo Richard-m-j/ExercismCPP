@@ -91,9 +91,7 @@
     "string_view": "cpp"
   },
   "cmake.setBuildTypeOnMultiConfig": true,
-  "cmake.buildDirectory": "${workspaceFolder}/cpp/luhn",
+  "cmake.buildDirectory": "${workspaceFolder}/cpp/sieve",
   "cmake.configureOnOpen": true,
-  "cmake.configureSettings": {
-  
-  }
+  "cmake.configureSettings": {}
 }
