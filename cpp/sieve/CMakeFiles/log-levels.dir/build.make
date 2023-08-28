@@ -72,29 +72,29 @@ CMakeFiles/log-levels.dir/log_levels_test.cpp.obj: CMakeFiles/log-levels.dir/fla
 CMakeFiles/log-levels.dir/log_levels_test.cpp.obj: C:/Users/hp/Exercism/cpp/log-levels/log_levels_test.cpp
 CMakeFiles/log-levels.dir/log_levels_test.cpp.obj: CMakeFiles/log-levels.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Exercism\cpp\sieve\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/log-levels.dir/log_levels_test.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/log-levels.dir/log_levels_test.cpp.obj -MF CMakeFiles\log-levels.dir\log_levels_test.cpp.obj.d -o CMakeFiles\log-levels.dir\log_levels_test.cpp.obj -c C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/log-levels.dir/log_levels_test.cpp.obj -MF CMakeFiles\log-levels.dir\log_levels_test.cpp.obj.d -o CMakeFiles\log-levels.dir\log_levels_test.cpp.obj -c C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp
 
 CMakeFiles/log-levels.dir/log_levels_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/log-levels.dir/log_levels_test.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp > CMakeFiles\log-levels.dir\log_levels_test.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp > CMakeFiles\log-levels.dir\log_levels_test.cpp.i
 
 CMakeFiles/log-levels.dir/log_levels_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/log-levels.dir/log_levels_test.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp -o CMakeFiles\log-levels.dir\log_levels_test.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Exercism\cpp\log-levels\log_levels_test.cpp -o CMakeFiles\log-levels.dir\log_levels_test.cpp.s
 
 CMakeFiles/log-levels.dir/test/tests-main.cpp.obj: CMakeFiles/log-levels.dir/flags.make
 CMakeFiles/log-levels.dir/test/tests-main.cpp.obj: C:/Users/hp/Exercism/cpp/log-levels/test/tests-main.cpp
 CMakeFiles/log-levels.dir/test/tests-main.cpp.obj: CMakeFiles/log-levels.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Exercism\cpp\sieve\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/log-levels.dir/test/tests-main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/log-levels.dir/test/tests-main.cpp.obj -MF CMakeFiles\log-levels.dir\test\tests-main.cpp.obj.d -o CMakeFiles\log-levels.dir\test\tests-main.cpp.obj -c C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/log-levels.dir/test/tests-main.cpp.obj -MF CMakeFiles\log-levels.dir\test\tests-main.cpp.obj.d -o CMakeFiles\log-levels.dir\test\tests-main.cpp.obj -c C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp
 
 CMakeFiles/log-levels.dir/test/tests-main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/log-levels.dir/test/tests-main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp > CMakeFiles\log-levels.dir\test\tests-main.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp > CMakeFiles\log-levels.dir\test\tests-main.cpp.i
 
 CMakeFiles/log-levels.dir/test/tests-main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/log-levels.dir/test/tests-main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp -o CMakeFiles\log-levels.dir\test\tests-main.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Exercism\cpp\log-levels\test\tests-main.cpp -o CMakeFiles\log-levels.dir\test\tests-main.cpp.s
 
 # Object files for target log-levels
 log__levels_OBJECTS = \
