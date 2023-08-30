@@ -1,53 +1,47 @@
-#include <string>
-#include <iostream>
-#include <algorithm>
-using namespace std;
-
-string gcdOfStrings(string str1, string str2)
+class Solution
 {
-    string output = "";
-    string s1, s2;
-
-    if (str1.length() >= str2.length())
-        s1 = str1, s2 = str2;
-    else
-        s1 = str2, s2 = str1;
-
-    int l1 = str1.length();
-    int l2 = str2.length();
-
-    while (l2 != 0)
+public:
+    int volume(int h1, int h2, int w)
     {
-        int temp = l2;
-        l2 = l1 % l2;
-        l1 = temp;
+        if (h1 > h2)
+            return h2 * w;
+        return h1 * w;
     }
-    int gcd = l1;
 
-    for (int i = 1; i < gcd; i++)
+    int maxArea(vector<int> &height)
     {
-        int x = 0, y = 0;
-        if (gcd % i != 0)
-            continue;
-        bool isRepeating = true;
-        while (x < s1.length() && y < s2.length())
-            for (int k = 0; k <= i; k++)
-                if (s1[x++] != s2[k] || s2[y++] || s2[k])
-                {
-                    isRepeating = false;
-                    break;
-                }
-        if (isRepeating)
+        ios_base::sync_with_stdio(false);
+
+        int n = height.size();
+        int maxVol = volume(height[0], height[n - 1], n - 1);
+        int left = 0, right = n - 1;
+
+        while (left < right)
         {
-            for (int j = 0; j <= i; j++)
-                output += s2[j];
-            break;
-        }
-    }
-    return output;
-}
+            int shorter = min(height[left], height[right]);
 
-int main(void)
-{
-    cout << gcdOfStrings("ABCABC", "ABC") << endl;
-}
+            if (height[left] < height[right])
+            {
+                int current = volume(height[left], height[right], right - left);
+                if (current > maxVol)
+                {
+                    maxVol = current;
+                }
+                while (left < right && height[left] <= shorter)
+                    left++;
+            }
+            else
+            {
+                int current = volume(height[left], height[right], right - left);
+                if (current > maxVol)
+                {
+                    maxVol = current;
+                }
+                while (left < right && height[right] <= shorter)
+                    right--;
+            }
+        }
+
+        return maxVol;
+    }
+};
